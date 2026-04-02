@@ -11,7 +11,7 @@ const GENERATED_DIR = path.join(process.cwd(), 'generated-content');
 
 const BATCH_SIZE = 50;
 const CONCURRENCY_LIMIT = 10;
-const REQUEST_DELAY = 0;
+const REQUEST_DELAY = 500;
 const MAX_RETRIES = 5;
 
 // Ensure output directory exists

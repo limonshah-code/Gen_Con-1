@@ -10,7 +10,7 @@ const EXTERNAL_API_URL = `${EXTERNAL_API_BASE}/api/all-files`;
 const GENERATED_DIR = path.join(process.cwd(), 'generated-content');
 
 const BATCH_SIZE = 50;
-const CONCURRENCY_LIMIT = 40;
+const CONCURRENCY_LIMIT = 10;
 const REQUEST_DELAY = 0;
 const MAX_RETRIES = 5;
 

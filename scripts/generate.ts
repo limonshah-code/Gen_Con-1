@@ -9,8 +9,8 @@ const EXTERNAL_API_BASE = 'https://cloud-text-manager-server.vercel.app';
 const EXTERNAL_API_URL = `${EXTERNAL_API_BASE}/api/all-files`;
 const GENERATED_DIR = path.join(process.cwd(), 'generated-content');
 
-const BATCH_SIZE = 50;
-const CONCURRENCY_LIMIT = 10;
+const BATCH_SIZE = 30;
+const CONCURRENCY_LIMIT = 2;
 const REQUEST_DELAY = 500;
 const MAX_RETRIES = 5;
 
